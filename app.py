@@ -36,7 +36,7 @@ embeddings = HuggingFaceEmbeddings(
 )
 
 llm = ChatOllama(
-    model="deepseek-r1:1.5b",
+    model="deepseek-r1:7b",
     temperature=0.3,
     num_gpu=1,
     num_ctx=2048,
